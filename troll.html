@@ -6,15 +6,19 @@
 <style>
   body {
     margin: 0;
-    background: transparent;
+    background: transparent; /* transparent background */
+    overflow: hidden; /* remove scrollbars if any */
+  }
+
+  audio {
+    display: none; /* hide audio player completely */
   }
 </style>
 </head>
 <body>
 
 <!-- Hidden autoplay music -->
-<audio src="music.mp3" autoplay loop style="display:none;"></audio>
+<audio src="music.mp3" autoplay loop></audio>
 
 </body>
 </html>
-
