@@ -4,21 +4,22 @@
 <meta charset="UTF-8">
 <title>Hidden Autoplay Music</title>
 <style>
-  body {
+  html, body {
     margin: 0;
+    padding: 0;
     background: transparent;
-    overflow: hidden; /* prevent scrollbars */
+    overflow: hidden; /* remove scrollbars */
+    width: 100%;
+    height: 100%;
   }
 
-  /* hide the audio completely */
   audio {
-    display: none;
+    display: none; /* hide audio completely */
   }
 </style>
 </head>
 <body>
 
-<!-- Hidden autoplay music -->
 <audio src="music.mp3" autoplay loop></audio>
 
 </body>
