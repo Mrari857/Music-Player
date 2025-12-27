@@ -2,26 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Hidden Autoplay Music</title>
+<title>Hidden Music</title>
 <style>
   html, body {
     margin: 0;
     padding: 0;
-    background: transparent;
-    overflow: hidden; /* remove scrollbars */
     width: 100%;
     height: 100%;
+    background: transparent;
+    overflow: hidden;
   }
 
+  /* Hide audio completely */
   audio {
-    display: none; /* hide audio completely */
+    display: none;
   }
 </style>
 </head>
 <body>
 
+<!-- No controls, hidden autoplay -->
 <audio src="music.mp3" autoplay loop></audio>
 
 </body>
 </html>
-
